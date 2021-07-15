@@ -1,5 +1,4 @@
 .header {
-  outline: solid red 1px;
   padding: 18px 14px;
   display: flex;
   justify-content: space-between;
@@ -59,7 +58,6 @@
     padding: 8px 20px;
   }
 }
-
 
 @media screen and (min-width: 1280px) {
   .header {
