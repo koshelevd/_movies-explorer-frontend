@@ -22,10 +22,43 @@
 }
 
 .link:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .smoothly {
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.section {
+  padding: 71px 4px;
+}
+
+.section__header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.04em;
+  border-bottom: #dadada solid 1px;
+  margin: 0;
+  padding-bottom: 28px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 92px 30px;
+  }
+
+  .section__header {
+    font-size: 22px;
+    padding-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 112px 30px 102px;
+  }
 }
