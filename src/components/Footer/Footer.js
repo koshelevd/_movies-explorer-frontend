@@ -11,17 +11,32 @@ function Footer() {
         <nav className="footer__nav">
           <ul className="footer__links">
             <li className="footer__links-item">
-              <a href="/" className="footer__link link smoothly">
+              <a
+                href="https://praktikum.yandex.ru/"
+                className="footer__link link smoothly"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Яндекс.Практикум
               </a>
             </li>
             <li className="footer__links-item">
-              <a href="/" className="footer__link link smoothly">
+              <a
+                href="https://github.com/koshelevd"
+                className="footer__link link smoothly"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </li>
             <li className="footer__links-item">
-              <a href="/" className="footer__link link smoothly">
+              <a
+                href="facebook.com/dmitri.koshelev.9"
+                className="footer__link link smoothly"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Facebook
               </a>
             </li>

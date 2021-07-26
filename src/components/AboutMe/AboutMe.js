@@ -1,9 +1,9 @@
 import photo from '../../images/student-photo.jpg';
 import './AboutMe.css';
 
-function AboutMe() {
+function AboutMe({ targetRef }) {
   return (
-    <section className="section about-me">
+    <section className="section about-me" id="about-me" ref={targetRef}>
       <h2 className="section__header">Студент</h2>
       <article className="about-me__info">
         <img src={photo} alt="Фото студента" className="about-me__photo" />
@@ -23,12 +23,16 @@ function AboutMe() {
             <a
               href="https://facebook.com"
               className="link about-me__link smoothly"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Facebook
             </a>
             <a
               href="https://github.com"
               className="link about-me__link smoothly"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github
             </a>

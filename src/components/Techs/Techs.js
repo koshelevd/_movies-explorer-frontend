@@ -1,8 +1,8 @@
 import './Techs.css';
 
-function Techs() {
+function Techs({ targetRef }) {
   return (
-    <section className="techs section">
+    <section className="techs section" id="techs" ref={targetRef}>
       <h2 className="section__header">Технологии</h2>
       <h3 className="techs__header">7 технологий</h3>
       <p className="techs__subheader">

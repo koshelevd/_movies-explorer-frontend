@@ -1,8 +1,12 @@
 import './AboutProject.css';
 
-function AboutProject() {
+function AboutProject({ targetRef }) {
   return (
-    <section className="about-project section">
+    <section
+      className="about-project section"
+      id="about-project"
+      ref={targetRef}
+    >
       <h2 className="section__header">О проекте</h2>
       <div className="about-project__articles-container">
         <article className="about-project__article">
@@ -29,17 +33,13 @@ function AboutProject() {
           <div className="about-project__progressbar about-project__progressbar_backend">
             1 неделя
           </div>
-          <p className="about-project__chart-caption">
-            Back-end
-          </p>
+          <p className="about-project__chart-caption">Back-end</p>
         </div>
         <div className="about-project__chart">
           <div className="about-project__progressbar about-project__progressbar_frontend">
             4 недели
           </div>
-          <p className="about-project__chart-caption">
-            Front-end
-          </p>
+          <p className="about-project__chart-caption">Front-end</p>
         </div>
       </div>
     </section>

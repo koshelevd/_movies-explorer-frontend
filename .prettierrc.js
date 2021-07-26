@@ -1,5 +1,5 @@
 module.exports = {
   singleQuote: true,
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   printWidth: 80,
 };
